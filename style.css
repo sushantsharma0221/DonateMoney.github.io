@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css2?family=Dosis:wght@200&family=Josefin+Sans:wght@300&family=Quicksand:wght@300;400;600;700&family=Raleway:wght@200&family=Rampart+One&family=Roboto&family=Roboto+Slab:wght@300&family=Saira+Condensed:wght@100&family=Ubuntu:wght@300&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+.main-container {
+  font-family: Quicksand, sans serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  background-image: url("./image.jpg");
+  background-blend-mode: multiply;
+  background-color: rgba(0, 0, 0, 0.226);
+  background-size: cover;
+  color: aliceblue;
+  position: relative;
+}
+.text {
+  text-shadow: 4px 4px 5px #000000;
+  top: 1%;
+  left: 2%;
+  margin: 5% 5%;
+  position: absolute;
+  height: 30vh;
+  width: 80vw;
+  font-size: 1.4rem;
+}
+.my-navbar {
+  background-image: linear-gradient(
+    to right,
+    rgba(75, 177, 190, 0.781),
+    rgba(158, 172, 197, 0.712)
+  );
+  text-decoration: none;
+  min-width: 95vw;
+}
+.form-control {
+  width: 20rem;
+}
+.search {
+  margin-left: 38rem;
+}
+
+.btn-success {
+  outline: none;
+  margin-top: 28%;
+  margin-left: 39%;
+  height: 3rem;
+  width: 20rem;
+  background-image: linear-gradient(
+    to right,
+    rgb(247, 247, 247),
+    rgb(190, 189, 189)
+  );
+  border: none;
+  border-radius: 1rem;
+  font-weight: 600;
+  font-size: 1rem;
+  box-shadow: 7px 10px 12px rgba(0, 0, 0, 0.822);
+
+  transition: ease-in 0.3s;
+}
+#donation {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  font-weight: 500;
+}
+.btn-success:hover {
+  font-size: 1.1rem;
+  height: 3.8rem;
+  width: 22rem;
+}
+#rzp-button1 {
+  margin-top: 1.2rem;
+  height: 3rem;
+  width: 8.5rem;
+  background-image: linear-gradient(
+    to right,
+    rgba(157, 170, 172, 0.781),
+    rgba(121, 133, 155, 0.712)
+  );
+  border: none;
+  border-radius: 1rem;
+  color: rgb(255, 255, 255);
+  font-weight: 500;
+  font-size: 1rem;
+  box-shadow: 6px 7px 12px rgb(32, 32, 32);
+  outline: none;
+  transition: ease-in 0.4s;
+}
+#rzp-button1:hover {
+  height: 3.5rem;
+  width: 12rem;
+  background-color: rgb(42, 26, 187);
+  font-size: 1.1rem;
+}
+.container2 {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background-image: url("./image2.jpg");
+  background-blend-mode: multiply;
+  background-color: rgba(0, 0, 0, 0.418);
+  height: 100vh;
+  color: aliceblue;
+  background-size: cover;
+  position: relative;
+}
+.text2 {
+  text-shadow: 4px 4px 5px #000000;
+  font-weight: 400;
+}
+
+@media only screen and (max-width: 800px) {
+  .text2 {
+    text-align: center;
+  }
+}
